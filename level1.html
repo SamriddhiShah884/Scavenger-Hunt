@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Level1- Animal Tree House</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <link rel="stylesheet" href="level1.css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <script src="js/form.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+
+  </head>
+  <body style="background-color: #4A90FF;">
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCTuEMFWEkUyZxwGHDYs-tANat2AdzsVNM",
+        authDomain: "scavenger-hunt-a0bd8.firebaseapp.com",
+        databaseURL: "https://scavenger-hunt-a0bd8-default-rtdb.firebaseio.com",
+        projectId: "scavenger-hunt-a0bd8",
+        storageBucket: "scavenger-hunt-a0bd8.appspot.com",
+        messagingSenderId: "883601821638",
+        appId: "1:883601821638:web:f567da83183839e7b26cc7"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- <label>Level1</label> -->
+    <center>
+  <div id="list" >
+    <img id="img1" src="decor-obj/ladybug.png"><span>   <label id="a" class="list-item">Ladybug  , </label><img id="cross1" src="#"></span> 
+
+    &nbsp; &nbsp; &nbsp; 
+    &nbsp; 
+    <img id="img2" src="decor-obj/bell.png"><span>   <label id="a" class="list-item">Bell  , </label> <img id="cross2" src="#"></span> 
+    &nbsp; &nbsp; &nbsp; 
+    <img id="img3" src="decor-obj/owl.png"><span>   <label id="a" class="list-item">Owl  , </label>  <img id="cross3" src="#">   </span> 
+    &nbsp; &nbsp; &nbsp; 
+    <img id="img4" src="decor-obj/wooden.png"><span>   <label id="a" class="list-item">Wooden Swing  , </label>  <img id="cross4" src="#">      </span> 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <img id="img5" src="decor-obj/cup.png"><span>   <label id="a" class="list-item">Cup  , </label>  <img id="cross5" src="#">  </span> 
+    &nbsp; &nbsp; &nbsp; 
+    <img id="img6" src="decor-obj/lamp.png"><span>   <label id="a" class="list-item">Yellow Lamp  </label>  <img id="cross6" src="#"></span> 
+
+
+  </div>
+</center>
+    <script src="level1.js"></script>
+  </body>
+</html>
